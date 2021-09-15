@@ -1,0 +1,19 @@
+server:
+  port: 8011
+spring:
+  application:
+    name: order-service
+  cloud:
+    nacos:
+      discovery:
+        username: nacos
+        password: nacos
+        server-addr: 127.0.0.1:8848
+        namespace: public
+logging:
+  level:
+    study.springcloud.order.feign: debug
+feign:
+  sentinel:
+      # openfeign整合sentinel
+      enabled: true

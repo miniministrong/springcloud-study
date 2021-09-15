@@ -1,0 +1,23 @@
+server:
+  port: 8011
+spring:
+  application:
+    name: order-service
+  cloud:
+    nacos:
+      discovery:
+        username: nacos
+        password: nacos
+        server-addr: 127.0.0.1:8848
+        namespace: public
+logging:
+  level:
+    study.springcloud.order.feign: debug
+feign:
+  client:
+    config:
+      product-service:
+        loggerlevel: FULL
+        connectTimeout: 5000
+        readTimeout: 3000
+        requestInterceptors[0]: study.springcloud.order.interceptor.fegin.ProductFeignInterceptor

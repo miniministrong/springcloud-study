@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="order-sentinel" />
+        <module name="sentinel" />
+        <module name="order-openfeign-sentinel" />
+        <module name="springcloud-nacos-stock" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="order-openfeign-sentinel" target="1.8" />
+      <module name="order-sentinel" target="1.8" />
+      <module name="sentinel" target="1.8" />
+      <module name="springcloud-nacos-stock" target="1.8" />
+      <module name="springcloud-setinel" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="order-openfeign-sentinel" options="-parameters" />
+      <module name="order-sentinel" options="-parameters" />
+      <module name="sentinel" options="-parameters" />
+      <module name="springcloud-nacos-stock" options="-parameters" />
+      <module name="springcloud-setinel" options="-parameters" />
+    </option>
+  </component>
+</project>

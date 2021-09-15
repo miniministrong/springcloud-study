@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/order-openfeign-sentinel/order-openfeign-sentinel.iml" filepath="$PROJECT_DIR$/order-openfeign-sentinel/order-openfeign-sentinel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-sentinel/order-sentinel.iml" filepath="$PROJECT_DIR$/order-sentinel/order-sentinel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sentinel/sentinel.iml" filepath="$PROJECT_DIR$/../sentinel/sentinel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stock-sentinel/springcloud-nacos-stock.iml" filepath="$PROJECT_DIR$/stock-sentinel/springcloud-nacos-stock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-setinel.iml" filepath="$PROJECT_DIR$/springcloud-setinel.iml" />
+    </modules>
+  </component>
+</project>

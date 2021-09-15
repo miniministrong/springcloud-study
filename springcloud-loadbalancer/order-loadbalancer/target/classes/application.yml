@@ -1,0 +1,20 @@
+server:
+  port: 8012
+spring:
+  application:
+    name: order-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        username: nacos
+        password: nacos
+stock-service:
+  ribbon:
+    NFLoadBalancerRuleClassName: study.springcloud.rule.ConsumeRule
+ribbon:
+  eager-load:
+    # 开启ribbon的立即加载
+    enabled: true
+    # 配置stock-service使用ribbon立即加载，使用多个逗号进行分隔
+    clients: stock-service

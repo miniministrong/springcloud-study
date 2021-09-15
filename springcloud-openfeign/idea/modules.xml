@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/order-openfeign/order-openfeign.iml" filepath="$PROJECT_DIR$/order-openfeign/order-openfeign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-openfeign/product-openfeign.iml" filepath="$PROJECT_DIR$/product-openfeign/product-openfeign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-openfeign.iml" filepath="$PROJECT_DIR$/springcloud-openfeign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stock-openfeign/stock-openfeign.iml" filepath="$PROJECT_DIR$/stock-openfeign/stock-openfeign.iml" />
+    </modules>
+  </component>
+</project>

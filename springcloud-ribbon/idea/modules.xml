@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/order-ribbon/order-ribbon.iml" filepath="$PROJECT_DIR$/order-ribbon/order-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-ribbon.iml" filepath="$PROJECT_DIR$/springcloud-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stock-ribbon/stock-ribbon.iml" filepath="$PROJECT_DIR$/stock-ribbon/stock-ribbon.iml" />
+    </modules>
+  </component>
+</project>

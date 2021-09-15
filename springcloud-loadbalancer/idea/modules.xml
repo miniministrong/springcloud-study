@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/order-loadbalancer/order-loadbalancer.iml" filepath="$PROJECT_DIR$/order-loadbalancer/order-loadbalancer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-loadbalancer.iml" filepath="$PROJECT_DIR$/springcloud-loadbalancer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stock-loadbalancer/stock-loadbalancer.iml" filepath="$PROJECT_DIR$/stock-loadbalancer/stock-loadbalancer.iml" />
+    </modules>
+  </component>
+</project>
